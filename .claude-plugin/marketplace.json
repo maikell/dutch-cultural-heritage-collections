@@ -1,0 +1,17 @@
+{
+  "name": "dutch-cultural-heritage-collections",
+  "description": "Claude plugin for searching and reading Dutch cultural heritage collections, starting with Delpher.",
+  "owner": {
+    "name": "maikell",
+    "url": "https://github.com/maikell"
+  },
+  "plugins": [
+    {
+      "name": "dutch-cultural-heritage-collections",
+      "source": "./",
+      "description": "Dutch cultural heritage collections: search and read digitised Dutch heritage sources. First service: Delpher (Koninklijke Bibliotheek, National Library of the Netherlands) - search digitised newspapers (1618-1995), magazines, books and ANP radio bulletins, read the full OCR text and count hits over time. More collections (such as the Amsterdam City Archives image bank) will follow.",
+      "version": "0.3.0",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}

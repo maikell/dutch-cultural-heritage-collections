@@ -1,0 +1,22 @@
+{
+  "name": "dutch-cultural-heritage-collections",
+  "version": "0.3.0",
+  "description": "Dutch cultural heritage collections: search and read digitised Dutch heritage sources. First service: Delpher (Koninklijke Bibliotheek, National Library of the Netherlands) - search digitised newspapers (1618-1995), magazines, books and ANP radio bulletins, read the full OCR text and count hits over time. More collections (such as the Amsterdam City Archives image bank) will follow.",
+  "author": {
+    "name": "maikell",
+    "url": "https://github.com/maikell"
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "cultural heritage",
+    "GLAM",
+    "delpher",
+    "koninklijke bibliotheek",
+    "newspapers",
+    "archives",
+    "netherlands",
+    "history"
+  ],
+  "homepage": "https://github.com/maikell/dutch-cultural-heritage-collections",
+  "repository": "https://github.com/maikell/dutch-cultural-heritage-collections"
+}
