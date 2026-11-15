@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "delpher": {
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${CLAUDE_PLUGIN_ROOT}/mcp/delpher_mcp.ps1"
+      ]
+    }
+  }
+}
