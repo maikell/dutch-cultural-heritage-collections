@@ -1,6 +1,6 @@
 {
   "name": "dutch-cultural-heritage-collections",
-  "description": "Claude plugin for searching and reading Dutch cultural heritage collections, starting with Delpher.",
+  "description": "Claude plugin for searching and reading Dutch cultural heritage collections: Delpher, the Amsterdam and Rotterdam City Archives, the Noord-Hollands Archief and the NIOD.",
   "owner": {
     "name": "maikell",
     "url": "https://github.com/maikell"
@@ -9,8 +9,8 @@
     {
       "name": "dutch-cultural-heritage-collections",
       "source": "./",
-      "description": "Dutch cultural heritage collections: search and read digitised Dutch heritage sources. First service: Delpher (Koninklijke Bibliotheek, National Library of the Netherlands) - search digitised newspapers (1618-1995), magazines, books and ANP radio bulletins, read the full OCR text and count hits over time. More collections (such as the Amsterdam City Archives image bank) will follow.",
-      "version": "0.3.0",
+      "description": "Dutch cultural heritage collections: search and read digitised Dutch heritage sources. Services: Delpher (Koninklijke Bibliotheek) for newspapers, magazines, books and ANP radio bulletins; the person indexes of the Amsterdam City Archives, including the personal and archive cards 1939-1994; person records and archive search links for the Rotterdam City Archives and the Noord-Hollands Archief; and the archives of the NIOD Institute for War, Holocaust and Genocide Studies via EHRI.",
+      "version": "0.5.0",
       "license": "CC-BY-4.0"
     }
   ]

@@ -1,21 +1,29 @@
 {
   "name": "dutch-cultural-heritage-collections",
-  "version": "0.3.0",
-  "description": "Dutch cultural heritage collections: search and read digitised Dutch heritage sources. First service: Delpher (Koninklijke Bibliotheek, National Library of the Netherlands) - search digitised newspapers (1618-1995), magazines, books and ANP radio bulletins, read the full OCR text and count hits over time. More collections (such as the Amsterdam City Archives image bank) will follow.",
+  "version": "0.5.0",
+  "description": "Dutch cultural heritage collections: search and read digitised Dutch heritage sources. Services: Delpher (Koninklijke Bibliotheek) for newspapers, magazines, books and ANP radio bulletins; the person indexes of the Amsterdam City Archives, including the personal and archive cards 1939-1994; person records and archive search links for the Rotterdam City Archives and the Noord-Hollands Archief; and the archives of the NIOD Institute for War, Holocaust and Genocide Studies via EHRI.",
   "author": {
     "name": "maikell",
     "url": "https://github.com/maikell"
   },
   "license": "CC-BY-4.0",
   "keywords": [
-    "cultural heritage",
     "GLAM",
-    "delpher",
-    "koninklijke bibliotheek",
-    "newspapers",
     "archives",
+    "cultural heritage",
+    "delpher",
+    "ehri",
+    "genealogy",
+    "history",
+    "koninklijke bibliotheek",
     "netherlands",
-    "history"
+    "newspapers",
+    "niod",
+    "noord-hollands archief",
+    "population register",
+    "second world war",
+    "stadsarchief amsterdam",
+    "stadsarchief rotterdam"
   ],
   "homepage": "https://github.com/maikell/dutch-cultural-heritage-collections",
   "repository": "https://github.com/maikell/dutch-cultural-heritage-collections"
