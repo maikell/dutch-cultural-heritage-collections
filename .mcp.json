@@ -9,6 +9,50 @@
         "-File",
         "${CLAUDE_PLUGIN_ROOT}/mcp/delpher_mcp.ps1"
       ]
+    },
+    "amsterdam-city-archives": {
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${CLAUDE_PLUGIN_ROOT}/mcp/amsterdam_mcp.ps1"
+      ]
+    },
+    "rotterdam-city-archives": {
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${CLAUDE_PLUGIN_ROOT}/mcp/open_archives_mcp.ps1",
+        "-Archive",
+        "srt"
+      ]
+    },
+    "noord-hollands-archief": {
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${CLAUDE_PLUGIN_ROOT}/mcp/open_archives_mcp.ps1",
+        "-Archive",
+        "nha"
+      ]
+    },
+    "niod": {
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${CLAUDE_PLUGIN_ROOT}/mcp/niod_mcp.ps1"
+      ]
     }
   }
 }
