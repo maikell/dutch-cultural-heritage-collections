@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1694" viewBox="0 0 1200 1694" role="img" aria-labelledby="t d"><title id="t">Dutch cultural heritage collections, version 0.5.0</title><desc id="d">Overview of the five services in the plugin: Delpher, Amsterdam City Archives, Rotterdam City Archives, Noord-Hollands Archief and NIOD, with how the plugin works.</desc><style>text{font-family:Roboto, system-ui, -apple-system, 'Segoe UI', Arial, sans-serif}.m{font-family:'Roboto Mono', ui-monospace, Consolas, monospace}.c0{font-size:40px;font-weight:700;fill:#1b222c}.c1{font-size:17px;font-weight:400;fill:#4f5866}.c2{font-size:12px;font-weight:500;fill:#1f3a5f;letter-spacing:0.06em}.c3{font-size:12px;font-weight:500;fill:#4f5866;letter-spacing:0.06em}.c4{font-size:13px;font-weight:500;fill:#1f3a5f;font-family:'Roboto Mono', ui-monospace, Consolas, monospace}.c5{font-size:16px;font-weight:500;fill:#1b222c}.c6{font-size:14px;font-weight:400;fill:#4f5866}.c7{font-size:20px;font-weight:400;fill:#8f8775}.c8{font-size:22px;font-weight:500;fill:#1b222c}.c9{font-size:15px;font-weight:400;fill:#1b222c}.c10{font-size:11px;font-weight:500;fill:#4f5866;letter-spacing:0.06em}.c11{font-size:13px;font-weight:400;fill:#4f5866;font-family:'Roboto Mono', ui-monospace, Consolas, monospace}.c12{font-size:30px;font-weight:700;fill:#1f3a5f}.c13{font-size:13px;font-weight:400;fill:#4f5866}.c14{font-size:12px;font-weight:500;fill:#2c6a4b;letter-spacing:0.06em}.c15{font-size:12px;font-weight:400;fill:#4f5866;font-family:'Roboto Mono', ui-monospace, Consolas, monospace}.c16{font-size:12px;font-weight:500;fill:#8a5a0b;letter-spacing:0.06em}.c17{font-size:13px;font-weight:500;fill:#1b222c;font-family:'Roboto Mono', ui-monospace, Consolas, monospace}</style><rect width="1200" height="1694" fill="#f6f4ee"/><text x="48" y="84" class="c0">Dutch cultural heritage collections</text>
+<text x="48" y="118" class="c1">A Claude plugin that searches and reads Dutch heritage sources: newspapers, city archives and war archives.</text>
+<rect x="48" y="138" width="1104" height="1" fill="#d9d3c4"/>
+<rect x="48" y="154" width="114.8" height="22" rx="2" fill="#dde6f0"/>
+<text x="56" y="169.5" class="c2">VERSION 0.5.0</text>
+<rect x="170.8" y="154" width="92" height="22" rx="2" fill="#ece8de"/>
+<text x="178.8" y="169.5" class="c3">2026-11-16</text>
+<rect x="270.8" y="154" width="175.6" height="22" rx="2" fill="#ece8de"/>
+<text x="278.8" y="169.5" class="c3">5 SERVICES · 17 TOOLS</text>
+<rect x="454.4" y="154" width="84.4" height="22" rx="2" fill="#ece8de"/>
+<text x="462.4" y="169.5" class="c3">CC BY 4.0</text>
+<text x="1152" y="170" class="c4" text-anchor="end">github.com/maikell/dutch-cultural-heritage-collections</text>
+<text x="48" y="222" class="c3">HOW IT WORKS</text>
+<rect x="48" y="238" width="252" height="112" rx="4" fill="#ffffff" stroke="#d9d3c4"/>
+<text x="68" y="272" class="c4">1</text>
+<text x="92" y="272" class="c5">You ask Claude</text>
+<text x="68" y="300" class="c6">in Dutch or English, e.g. “what</text>
+<text x="68" y="320" class="c6">did the papers write about</text>
+<text x="68" y="340" class="c6">Langswater?”</text>
+<text x="316" y="300" class="c7" text-anchor="middle">→</text>
+<rect x="332" y="238" width="252" height="112" rx="4" fill="#ffffff" stroke="#d9d3c4"/>
+<text x="352" y="272" class="c4">2</text>
+<text x="376" y="272" class="c5">A skill picks the service</text>
+<text x="352" y="300" class="c6">and knows its sources, filters and</text>
+<text x="352" y="320" class="c6">limits</text>
+<text x="600" y="300" class="c7" text-anchor="middle">→</text>
+<rect x="616" y="238" width="252" height="112" rx="4" fill="#ffffff" stroke="#d9d3c4"/>
+<text x="636" y="272" class="c4">3</text>
+<text x="660" y="272" class="c5">A server asks the API</text>
+<text x="636" y="300" class="c6">an MCP server on your own</text>
+<text x="636" y="320" class="c6">computer, with checked input</text>
+<text x="884" y="300" class="c7" text-anchor="middle">→</text>
+<rect x="900" y="238" width="252" height="112" rx="4" fill="#ffffff" stroke="#d9d3c4"/>
+<text x="920" y="272" class="c4">4</text>
+<text x="944" y="272" class="c5">An answer with sources</text>
+<text x="920" y="300" class="c6">names, dates, archive references,</text>
+<text x="920" y="320" class="c6">scans and links</text>
+<text x="48" y="406" class="c3">SERVICES</text>
+<rect x="48" y="422" width="1104" height="194" rx="4" fill="#ffffff" stroke="#d9d3c4"/>
+<rect x="48" y="422" width="4" height="194" fill="#1f3a5f"/>
+<text x="76" y="460" class="c8">Delpher</text>
+<text x="76" y="484" class="c6">Koninklijke Bibliotheek · National Library of the Netherlands</text>
+<text x="76" y="514" class="c9">Digitised Dutch newspapers (1618–1995), magazines, books and ANP radio bulletins</text>
+<text x="76" y="536" class="c9">(1937–1984). Search, read the full OCR text, and count hits per year or decade.</text>
+<text x="76" y="566" class="c10">TOOLS</text>
+<text x="132" y="566" class="c4">delpher_search · delpher_text · delpher_timeline</text>
+<text x="76" y="590" class="c10">SOURCE</text>
+<text x="132" y="590" class="c11">KB SRU search service + resolver (open, no key)</text>
+<text x="1124" y="466" class="c12" text-anchor="end">1618–1995</text>
+<text x="1124" y="488" class="c13" text-anchor="end">newspaper years</text>
+<rect x="1009.2" y="506" width="114.8" height="22" rx="2" fill="#e3efe7"/>
+<text x="1017.2" y="521.5" class="c14">SEARCH + READ</text>
+<text x="1124" y="600" class="c15" text-anchor="end">server: delpher</text>
+<rect x="48" y="632" width="1104" height="216" rx="4" fill="#ffffff" stroke="#d9d3c4"/>
+<rect x="48" y="632" width="4" height="216" fill="#1f3a5f"/>
+<text x="76" y="670" class="c8">Amsterdam City Archives</text>
+<text x="76" y="694" class="c6">Stadsarchief Amsterdam · archief.amsterdam/indexen</text>
+<text x="76" y="724" class="c9">About 30 person indexes: population registers, family cards, personal and archive cards</text>
+<text x="76" y="746" class="c9">1939–1994, baptism, marriage and burial registers, notarial deeds, militia registers, WWII</text>
+<text x="76" y="768" class="c9">registrations. Filter by source, role, place and period.</text>
+<text x="76" y="798" class="c10">TOOLS</text>
+<text x="132" y="798" class="c4">amsterdam_person_search · amsterdam_sources · amsterdam_record</text>
+<text x="76" y="822" class="c10">SOURCE</text>
+<text x="132" y="822" class="c11">Memorix genealogy service behind archief.amsterdam</text>
+<text x="1124" y="676" class="c12" text-anchor="end">30+</text>
+<text x="1124" y="698" class="c13" text-anchor="end">person indexes</text>
+<rect x="1009.2" y="716" width="114.8" height="22" rx="2" fill="#e3efe7"/>
+<text x="1017.2" y="731.5" class="c14">SEARCH + READ</text>
+<text x="1124" y="832" class="c15" text-anchor="end">server: amsterdam-city-archives</text>
+<rect x="48" y="864" width="1104" height="216" rx="4" fill="#ffffff" stroke="#d9d3c4"/>
+<rect x="48" y="864" width="4" height="216" fill="#1f3a5f"/>
+<text x="76" y="902" class="c8">Rotterdam City Archives</text>
+<text x="76" y="926" class="c6">Stadsarchief Rotterdam</text>
+<text x="76" y="956" class="c9">Civil registration, population registers, church registers, notarial deeds, Holland America</text>
+<text x="76" y="978" class="c9">Line passenger lists and militia registers, with persons, roles, archive reference and</text>
+<text x="76" y="1000" class="c9">scans.</text>
+<text x="76" y="1030" class="c10">TOOLS</text>
+<text x="132" y="1030" class="c4">rotterdam_person_search · rotterdam_record · rotterdam_sources · rotterdam_archive_search_link</text>
+<text x="76" y="1054" class="c10">SOURCE</text>
+<text x="132" y="1054" class="c11">Open Archives API (code srt) · archive search link</text>
+<text x="1124" y="908" class="c12" text-anchor="end">23 million</text>
+<text x="1124" y="930" class="c13" text-anchor="end">person entries</text>
+<rect x="940.8" y="948" width="183.2" height="22" rx="2" fill="#e3efe7"/>
+<text x="948.8" y="963.5" class="c14">PERSONS: SEARCH + READ</text>
+<rect x="963.6" y="976" width="160.4" height="22" rx="2" fill="#f3e8d3"/>
+<text x="971.6" y="991.5" class="c16">ARCHIVES: LINK ONLY</text>
+<text x="1124" y="1064" class="c15" text-anchor="end">server: rotterdam-city-archives</text>
+<rect x="48" y="1096" width="1104" height="194" rx="4" fill="#ffffff" stroke="#d9d3c4"/>
+<rect x="48" y="1096" width="4" height="194" fill="#1f3a5f"/>
+<text x="76" y="1134" class="c8">Noord-Hollands Archief</text>
+<text x="76" y="1158" class="c6">Haarlem · civil registration of all of Noord-Holland, including Amsterdam</text>
+<text x="76" y="1188" class="c9">Marriages, deaths and births of Noord-Holland (also Amsterdam), militia and population</text>
+<text x="76" y="1210" class="c9">registers, court and prison records, estate declarations and notarial deeds.</text>
+<text x="76" y="1240" class="c10">TOOLS</text>
+<text x="132" y="1240" class="c4">nha_person_search · nha_record · nha_sources · nha_archive_search_link</text>
+<text x="76" y="1264" class="c10">SOURCE</text>
+<text x="132" y="1264" class="c11">Open Archives API (code nha) · archive search link</text>
+<text x="1124" y="1140" class="c12" text-anchor="end">13 million</text>
+<text x="1124" y="1162" class="c13" text-anchor="end">person entries</text>
+<rect x="940.8" y="1180" width="183.2" height="22" rx="2" fill="#e3efe7"/>
+<text x="948.8" y="1195.5" class="c14">PERSONS: SEARCH + READ</text>
+<rect x="963.6" y="1208" width="160.4" height="22" rx="2" fill="#f3e8d3"/>
+<text x="971.6" y="1223.5" class="c16">ARCHIVES: LINK ONLY</text>
+<text x="1124" y="1274" class="c15" text-anchor="end">server: noord-hollands-archief</text>
+<rect x="48" y="1306" width="1104" height="216" rx="4" fill="#ffffff" stroke="#d9d3c4"/>
+<rect x="48" y="1306" width="4" height="216" fill="#1f3a5f"/>
+<text x="76" y="1344" class="c8">NIOD</text>
+<text x="76" y="1368" class="c6">Institute for War, Holocaust and Genocide Studies · Amsterdam</text>
+<text x="76" y="1398" class="c9">Archives, series, inventory items and photos about the Second World War, the occupation, the</text>
+<text x="76" y="1420" class="c9">Holocaust, the Dutch East Indies and genocide. Read full descriptions and search inside an</text>
+<text x="76" y="1442" class="c9">archive.</text>
+<text x="76" y="1472" class="c10">TOOLS</text>
+<text x="132" y="1472" class="c4">niod_search · niod_item · niod_archive_search_link</text>
+<text x="76" y="1496" class="c10">SOURCE</text>
+<text x="132" y="1496" class="c11">EHRI portal API (repository nl-002896) · archive search link</text>
+<text x="1124" y="1350" class="c12" text-anchor="end">2.5 km</text>
+<text x="1124" y="1372" class="c13" text-anchor="end">of archives</text>
+<rect x="902.8" y="1390" width="221.2" height="22" rx="2" fill="#e3efe7"/>
+<text x="910.8" y="1405.5" class="c14">DESCRIPTIONS: SEARCH + READ</text>
+<rect x="940.8" y="1418" width="183.2" height="22" rx="2" fill="#f3e8d3"/>
+<text x="948.8" y="1433.5" class="c16">FULL SEARCH: LINK ONLY</text>
+<text x="1124" y="1506" class="c15" text-anchor="end">server: niod</text>
+<rect x="48" y="1562" width="1104" height="1" fill="#d9d3c4"/>
+<text x="48" y="1594" class="c3">INSTALL</text>
+<text x="128" y="1594" class="c17">/plugin marketplace add maikell/dutch-cultural-heritage-collections</text>
+<text x="48" y="1624" class="c13">Unofficial plugin, not affiliated with or endorsed by the institutions. Data comes from their open services and may be incomplete or contain</text>
+<text x="48" y="1645" class="c13">OCR and transcription errors: check the original. Not for tracing living persons. Provided as is, without warranty.</text></svg>
